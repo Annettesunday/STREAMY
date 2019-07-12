@@ -9,6 +9,7 @@ import StreamList from "./streams/StreamList";
 const App = () => {
   return (
     <div>
+    <h1>Header</h1>
       <BrowserRouter>
         <div>
           <Route exact path="/" component={StreamList} />
